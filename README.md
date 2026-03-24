@@ -8,15 +8,21 @@
 
 El dataset `salud_mundial.csv` contiene indicadores de salud de **159 países** alrededor del mundo, incluyendo esperanza de vida, gasto en salud, mortalidad infantil y cobertura de vacunación.
 
-| Campo | Descripción |
+| Columna | Descripción |
 |---|---|
 | `pais` | Nombre del país |
-| `region` | Región geográfica |
-| `nivel_ingresos` | Clasificación económica (Low, Medium, High, Very High) |
-| `esperanza_vida` | Esperanza de vida en años |
-| `gasto_salud_usd` | Gasto en salud per cápita en USD |
-| `mortalidad_infantil` | Muertes por cada 1000 nacidos vivos |
-| `vacunacion_pct` | Porcentaje de población vacunada |
+| `region` | Continente o región geográfica |
+| `nivel_ingresos` | Nivel económico: Low, Medium, High, Very High |
+| `esperanza_vida` | Esperanza de vida al nacer (años) |
+| `gasto_salud_usd` | Gasto per cápita en salud (USD/año) |
+| `mortalidad_infantil` | Muertes por cada 1,000 nacidos vivos |
+| `medicos_por_1000` | Médicos por cada 1,000 habitantes |
+| `poblacion_urbana_pct` | % de población que vive en zonas urbanas |
+| `obesidad_pct` | % de la población con obesidad |
+| `diabetes_pct` | % de la población con diabetes |
+| `tabaquismo_pct` | % de fumadores |
+| `camas_hospital_por_1000` | Camas hospitalarias por 1,000 hab. |
+| `vacunacion_pct` | % de cobertura de vacunación |
 
 **Fuente:** Indicadores del Banco Mundial / OMS.
 
